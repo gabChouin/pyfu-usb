@@ -94,7 +94,7 @@ def _dfuse_erase(
 
                 dfuse.page_erase(dev, interface, page_addr)
                 if task is not None:
-                    progress.update(task, advance=page_num)
+                    progress.update(task, advance=1)
     
 
 def _dfuse_download(
